@@ -5,7 +5,7 @@ A plugin for fixing the null points issue in Highcharts stack: https://github.co
 
 This plugin support an additional option *stackNull* for the *plotOptions.series*:
 
-···
+```
 $("#container").highcharts({
   plotOptions: {
     series: {
@@ -13,7 +13,7 @@ $("#container").highcharts({
     }
   }
 });
-···
+```
 
 And here is a demo:
 http://jsfiddle.net/esuqko5v/

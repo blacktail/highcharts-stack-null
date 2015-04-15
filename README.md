@@ -3,7 +3,14 @@ A plugin for fixing the null points issue in Highcharts stack: https://github.co
 
 # How to use
 
-This plugin support an additional option *stackNull* for the *plotOptions.series*:
+First add this plugin just after your Highcharts
+
+```
+<script src="http://code.highcharts.com/3/highcharts.js"></script>
+<script src="https://rawgit.com/blacktail/highcharts-stack-null/master/stack-null.js"></script>
+```
+
+Then, use the plotOptions.stackNull option like this:
 
 ```
 $("#container").highcharts({

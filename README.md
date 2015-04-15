@@ -1,5 +1,5 @@
 # highcharts-stack-null
-A plugin for fixing the null points bug in Highcharts stack
+A plugin for fixing the null points issue in Highcharts stack: https://github.com/highslide-software/highcharts.com/issues/2069
 
 # How to use
 
